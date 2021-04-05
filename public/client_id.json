@@ -1,0 +1,18 @@
+{
+  "web": {
+    "client_id": "206054913377-cvm5pebahgs2jbimq1lt5pkiprgn17cg.apps.googleusercontent.com",
+    "project_id": "kg-mail-app",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://accounts.google.com/o/oauth2/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "G1ANWk6f1HtVfwjzQFLRIYzP",
+    "redirect_uris": [
+      "http://localhost:3000/dashboard",
+      "http://localhost:4200/dashboard"
+    ],
+    "javascript_origins": [
+      "http://localhost:3000",
+      "http://localhost:4200"
+    ]
+  }
+}

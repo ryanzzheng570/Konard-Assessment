@@ -1,0 +1,36 @@
+  .label-modal {
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
+
+  .label-modal__overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    transition: opacity 50ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 500;
+  }
+
+  .modal__overlay:target {
+    visibility: visible;
+    opacity: 1;
+    z-index: 500;
+  }
+
+  .label-modal__popup {
+    margin: 200px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;z-index: 500;
+    visibility: visible;
+    z-index: 500;
+  }

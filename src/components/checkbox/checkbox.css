@@ -1,0 +1,35 @@
+.checkbox__container {
+    position: relative;
+    display: inline-block;
+    font-size: 0;
+}
+
+.checkbox__box {
+    border: 1px solid rgba(155,155,155,.57);
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.checkbox__checkmark {
+    position: absolute;
+    top: -5px;
+    left: -4px;
+}
+
+input[type=checkbox].checkbox__input {
+    opacity: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.checkbox__container:hover > .checkbox__box {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+    border-color: #b2b2b2;
+}
+
+input[type=checkbox].checkbox__input:focus + .checkbox__box {
+    border-color: #4d90fe;
+}

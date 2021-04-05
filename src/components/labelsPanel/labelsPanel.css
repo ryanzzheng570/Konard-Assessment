@@ -1,0 +1,21 @@
+.labels-panel {
+    padding-left: 15px;
+}
+
+.labels-panel__header {
+    padding: 17px 0 16px 0;
+}
+
+.labels-panel__label-item {
+    padding: 5px 0;
+    cursor: pointer;
+    display: block;
+}
+
+.labels-panel__label-item > input {
+    margin-right: 5px;
+}
+
+.labels-panel__checkbox {
+    margin-right: 5px;
+}
